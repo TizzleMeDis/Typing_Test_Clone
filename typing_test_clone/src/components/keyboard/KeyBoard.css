@@ -1,0 +1,13 @@
+.keyboard-container {
+
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 2%;
+
+    row-gap: 10px;
+    column-gap: 5px;
+}
