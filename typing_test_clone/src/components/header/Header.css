@@ -1,0 +1,13 @@
+.header {
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+p {
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

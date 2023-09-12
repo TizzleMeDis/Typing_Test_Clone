@@ -1,10 +1,19 @@
 import './App.css';
-import { KeyBoard } from './components';
-
+import {  Header, Prompt, KeyBoard, Options, Footer } from './components';
 function App() {
   return (
     <div className="App">
-      <KeyBoard />
+      <header>
+        <Header />
+      </header>
+      <main className="main" style={{textAlign: 'center'}}>
+        <Options />
+        <Prompt />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+      
     </div>
   );
 }

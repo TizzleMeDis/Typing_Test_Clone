@@ -1,3 +1,6 @@
 import { KeyBoard } from "./keyboard";
-
-export { KeyBoard }
+import { Prompt } from "./prompt";
+import { Header } from "./header";
+import { Options } from "./promptOptions";
+import { Footer } from './footer'
+export { Header, Options, KeyBoard, Prompt, Footer }

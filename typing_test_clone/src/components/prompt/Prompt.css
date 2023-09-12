@@ -1,0 +1,17 @@
+.phrase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    
+    width: 1000px; /* Set the desired width for the container */
+    border: 1px solid #ccc; /* Optional: Add a border for visualization */
+}
+
+.phrase {
+    font-size: 2rem;
+    word-wrap: break-word;
+}
