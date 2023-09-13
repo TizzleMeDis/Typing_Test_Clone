@@ -10,10 +10,9 @@ function App() {
         <Options />
         <Prompt />
       </main>
-      <footer>
+      <footer className="footer">
         <Footer />
       </footer>
-      
     </div>
   );
 }
