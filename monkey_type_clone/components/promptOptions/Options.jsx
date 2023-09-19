@@ -8,20 +8,20 @@ export default function Options() {
     <div className='options'>
       <div className='content-container'>
         <div>
-          <p><span><FontAwesomeIcon icon={faAt}/></span> punctuations</p>
-          <p><span><FontAwesomeIcon icon={faHashtag}/></span> numbers</p>
+          <span><FontAwesomeIcon icon={faAt}/> punctuations</span>
+          <span><FontAwesomeIcon icon={faHashtag}/> numbers</span>
         </div>
-        <p>|</p>
+        <span>|</span>
         <div>
-          <p><span><FontAwesomeIcon icon={faClock}/></span> time</p>
-          <p><span><FontAwesomeIcon icon={faA}/></span> words</p>
-          <p><span><FontAwesomeIcon icon={faQuoteLeft}/></span> quote</p>
-          <p><span><FontAwesomeIcon icon={faMountain}/></span> zen</p>
-          <p><span><FontAwesomeIcon icon={faWrench}/></span> custom</p>
+          <span><FontAwesomeIcon icon={faClock}/> time</span>
+          <span><FontAwesomeIcon icon={faA}/> words</span>
+          <span><FontAwesomeIcon icon={faQuoteLeft}/> quote</span>
+          <span><FontAwesomeIcon icon={faMountain}/> zen</span>
+          <span><FontAwesomeIcon icon={faWrench}/> custom</span>
         </div>
-        <p>|</p>
+        <span>|</span>
         <div>
-          <p>Changing text</p>
+          <span>Changing text</span>
         </div>
       </div>
     </div>

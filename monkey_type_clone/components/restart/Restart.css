@@ -1,15 +1,17 @@
-.footer {
-    align-self: flex-end;
+.restart-container {
     margin: 1rem;
+    padding: 1rem;
+    font-size: larger;
 }
 
 .restart {
-    margin: 1rem;
+    padding: 1rem;
+    
 }
 
 .help-text {
-    margin: 1rem;
-    padding: 0.2rem;
+    margin: 1.5rem;
+    padding: 0.25rem;
 }
 
 .keys {
@@ -20,9 +22,4 @@
 
 .text {
     margin: 6px;
-}
-
-.links {
-    display: flex;
-    justify-content: space-between;
 }

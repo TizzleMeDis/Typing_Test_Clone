@@ -4,12 +4,16 @@
     
     height: 140px;
     border: 1px solid #ccc; /* Optional: Add a border for visualization */
+    word-wrap: normal;
+    overflow: hidden;
+
+    font-size: x-large;
 }
 
-.phrase {
-    font-size: 2rem;
-    word-wrap: normal;
-} 
+.word{
+    margin: 3px;
+}
 
-.word {
+.character {
+    margin: 1px;
 }

@@ -1,17 +1,19 @@
-import {  Header, Prompt, KeyBoard, Options, Footer } from '../components';
-
+import {  Header, Prompt, KeyBoard, Options, Footer, LanguageChoice, Restart } from '../components';
+import './App.css'
 function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className='header-container'>
         <Header />
       </header>
-      <main className="main" style={{textAlign: 'center'}}>
+      <main className='content'>
         <Options />
+        <LanguageChoice />
         <Prompt />
+        <Restart />
       </main>
-      <footer className="footer">
+      <footer className='footer-container'>
         <Footer />
       </footer>
     </div>

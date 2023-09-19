@@ -1,5 +1,12 @@
 .App{
-    display: flex;
-    justify-content: center;
     text-align: center;
+    font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn", monospace;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex-grow: 1;
 }
