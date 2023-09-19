@@ -4,10 +4,8 @@ import './Prompt.css'
 
 export default function Prompt() {
 
-    const [phrase, setPhrase] = useState(stories[Math.floor(Math.random()*20)].story)
+    const [phrase, setPhrase] = useState(stories[Math.floor(Math.random()*4)].story)
 
-    const story = stories
-    const sentence = "This is a sample phrase.";
     const words = phrase.split(' ');
     
     return (
