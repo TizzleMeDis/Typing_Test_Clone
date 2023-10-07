@@ -28,3 +28,8 @@ span {
 .header-link{
     font-size: larger;
 }
+
+.header-link:hover {
+    font-size: x-large;
+    color: rgb(100, 100, 100);
+}

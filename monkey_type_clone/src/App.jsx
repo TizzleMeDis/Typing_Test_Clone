@@ -1,22 +1,33 @@
 import {  Header, Prompt, KeyBoard, Options, Footer, LanguageChoice, Restart } from '../components';
+import React, { useState } from 'react';
 import './App.css'
+
+
+const ThemeContext = React.createContext();
 function App() {
 
+  const [theme, setTheme] = useState('default');
+  const [wordCount, setWordCount] = useState(0);
+  const [word, setWord] = useState();
+  const [letter, setLetter] = useState();
+
   return (
-    <div className="App">
-      <header className='header-container'>
-        <Header />
-      </header>
-      <main className='content'>
-        <Options />
-        <LanguageChoice />
-        <Prompt />
-        <Restart />
-      </main>
-      <footer className='footer-container'>
-        <Footer />
-      </footer>
-    </div>
+    <ThemeContext.Provider value={theme}>
+      <div className="flex flex-col font-sans h-full text-center">
+        <header>
+          <Header />
+        </header>
+        <main className='flex-1'>
+          <Options />
+          <LanguageChoice />
+          <Prompt />
+          <Restart />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </ThemeContext.Provider>
   )
 }
 
