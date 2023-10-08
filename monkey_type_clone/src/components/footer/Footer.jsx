@@ -2,12 +2,11 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faCircleDollarToSlot, faCode, faFileContract, faShieldHalved, faLock, faPalette, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className='footer'>
-      <div className='links'>
+    <div className='self-end m-4'>
+      <div className='flex justify-between'>
         <div className='section-one'>
           <span><FontAwesomeIcon icon={faEnvelope}/> Contact</span>
           <span><FontAwesomeIcon icon={faCircleDollarToSlot}/> Support</span>

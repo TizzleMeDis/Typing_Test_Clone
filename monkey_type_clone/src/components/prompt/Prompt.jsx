@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import stories from '../../src/assets/stories.json'
-import './Prompt.css'
+import stories from '../../assets/stories.json'
 
 export default function Prompt() {
 
@@ -9,10 +8,10 @@ export default function Prompt() {
     const words = phrase.split(' ');
     
     return (
-        <div className='phrase-container'>
+        <div className='p-4 m-4 h-36 text-xl border border-black whitespace-break-spaces overflow-hidden'>
             {words.map((word, index) => (
-                <span className='word' key={index}>{word.split('').map((letter, index) => (
-                        <span className='character' key={index}>{letter}</span>
+                <span className='m-0.5' key={index}>{word.split('').map((letter, index) => (
+                        <span className='m-0.25' key={index}>{letter}</span>
                 ))} </span>
             ))}
         </div>

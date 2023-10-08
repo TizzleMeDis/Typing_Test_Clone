@@ -1,7 +1,5 @@
-import {  Header, Prompt, KeyBoard, Options, Footer, LanguageChoice, Restart } from '../components';
+import {  Header, Prompt, KeyBoard, Options, Footer, LanguageChoice, Restart } from './components';
 import React, { useState } from 'react';
-import './App.css'
-
 
 const ThemeContext = React.createContext();
 function App() {
